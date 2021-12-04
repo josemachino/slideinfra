@@ -1,0 +1,35 @@
+For a given job in this list, the following information is indicated:
+
+Build Status (S)
+Uses color codes (described below in more detail).
+Health/Build Stability (W)
+Uses weather icons (described below in more detail).
+Job Name
+Last Success
+Displays when was the last time the job built successfully, and the related build number.
+Last Failure
+Displays when was the last time the build failed, and the related build number.
+Last Duration
+How long did the latest build take to run?
+ (icon)
+To start a build.
+
+Jobs Table Footer
+The jobs table footer lists links to the legend of all the icons on the jobs table and their definitions, as well as RSS feeds for all builds, failed builds, and latest builds.
+
+
+Monitoring builds
+This section provides overall visibility into your Jenkins job executions. It lets you know if your Jenkins server has too many or too little resources, and can be very useful for IT capacity planning purposes. Monitoring builds has two subsections, Build Queue and Build Executor Status.
+
+
+The Build Queue section displays all the jobs that are currently queued and waiting for an executor to free up. You can click on the queued job to retrieve more information on the job. Alternatively you can cancel the job by clicking on the red colored X icon, which is displayed next to the job.
+
+The Build Executor Status lists all the builds that are currently in progress by each configured agent. You can click on the progress bar to view the build console output. You can also view the Jenkins Node dashboard which lists all the nodes (master, agents) by clicking on the Build Executor link.
+
+
+Plugins
+Jenkins uses plugins to provide much of the user-needed functionality. Many Jenkins features such as integrating source code management tools, build tools, reporting tools, code coverage, static analysis, notifications are all implemented as plugins.
+
+Essentially, all the Jenkins plugins are Java Archive (JAR) files with either an .hpi or .jpi extension. For example, Git plugin (git.hpi), Maven plugin (maven-plugin.jpi).
+
+They may have optional or required dependencies on other plugins, and they can be upgraded or downgraded (although this is generally not recommended).

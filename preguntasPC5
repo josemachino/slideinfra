@@ -1,0 +1,43 @@
+Which option describes a good DevOps practice?
+
+- Decrease collaboration, transparency, and communication
+- Increase the number of manual deployment tasks
+- Perform frequent application deployments
+- Running yearly tests on software builds
+
+What does the sample application used in the course use AWS Lambda for?
+
+- As a way to orchestrate application tasks
+- As a fully managed service to host a Websockets API
+- As a fully managed key-value and document database
+- As a serverless compute service 
+
+Which identity can be used with the git-remote-codecommit command to authenticate to an AWS CodeCommit repository?
+- An anonymous unauthenticated user
+- A web identity such as Login with Amazon, Facebook Login, or Google Sign-In
+- A Secure Shell (SSH) key
+- Credentials from an AWS Identity and Access Management (IAM) user
+
+Developers can use AWS CodeBuild to compile source, run tests, and create deployment packages. Which type of image is the build project environment for this course configured with?
+
+- Open Virtualization Format (OVF) archive
+- Amazon EC2 Amazon Machine Image (AMI)
+- Docker image
+- VMware Virtual Machine Disk (VMDK) image
+
+You can implement service discovery using third party software like HashiCorp Consul, ETCD, or Netflix Eureka
+
+
+A developer is working on a project to add cryptocurrency as a form of payment in an ecommerce application. They create a Git branch to add the commits. What is this type of branch called?
+
+- A test branch
+- A main branch
+- A hotfix branch
+- A feature branch
+
+In the following Git diagram, the commit at the bottom of the diagram has two parents. Which Git operation would create a commit like this
+
+git merge
+git bisect
+git init
+git rebase
